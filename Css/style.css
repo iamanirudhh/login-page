@@ -14,8 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background: linear-gradient(135deg, #667eea, #764ba2);*/
-    background: url('/image/bg-image1.jpeg') no-repeat center center/cover;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    /*background: url('/image/bg-image1.jpeg') no-repeat center center/cover;*/
   }
   
   .login-form {
@@ -59,3 +59,21 @@
     background-color: #061ef7;
   }
   
+  .login-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .login-links a {
+    font-size: 0.9rem;
+    color: #061ef7;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-top: 1rem;
+  }
+  
+  .login-links a:hover {
+    color: #061ef7;
+    text-decoration: underline;
+  }
